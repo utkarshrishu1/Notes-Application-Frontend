@@ -1,0 +1,9 @@
+.editNoteDiv{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    width: 95vw;
+    height: 80%;
+    margin: 15px 0px 15px 0px;
+}

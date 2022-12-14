@@ -1,0 +1,81 @@
+.navbar{
+    color: black;
+    background-color: aqua;
+    padding: 15px;
+    width: 100vw;
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    flex-wrap: wrap;
+}
+.logoutButton{
+    background-color: black;
+    padding: 10px;
+    font-size: bold;
+    border-radius: 5px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+}
+.searchBox{
+    width: 40vw;
+    margin-right: 5px;
+    outline: none;
+    height: 100%;
+    padding: 5x;
+}
+.searchButton{
+    background-color: black;
+    padding: 10px;
+    font-size: bold;
+    border-radius: 5px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+}
+.newNoteButton{
+    background-color: black;
+    padding: 10px;
+    font-size: bold;
+    border-radius: 5px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+}
+.dateSearchButton{
+    background-color: black;
+    padding: 5px;
+    font-size: bold;
+    border-radius: 5px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5px;
+}
+.searchDiv{
+    height: 100%;
+}
+@media (max-width:900px) {
+    .logoutButton,.newNoteButton,.searchButton{
+        padding: 4px;
+    }
+}
+@media (max-width:820px) {
+
+    .logoutButton,.newNoteButton,.searchButton{
+        padding: 2px;
+    }
+    .searchDiv{
+        height: 40%;
+    }
+    .navbar{
+        height: 23vh;
+    }
+}

@@ -1,0 +1,37 @@
+.addNoteDiv{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    width: 95vw;
+    height: 80%;
+    margin: 15px 0px 15px 0px;
+}
+textarea{
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+    outline: none;
+    border: none;
+    resize: none;
+    display: inline-block;
+}
+.saveButton{
+    background-color: black;
+    padding: 10px;
+    font-size: bold;
+    border-radius: 5px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+}
+.cancelButton{
+    background-color: black;
+    padding: 10px;
+    font-size: bold;
+    border-radius: 5px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+}
